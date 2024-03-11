@@ -7,7 +7,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Domain.Entities", "src\Doma
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Application.UseCases", "src\Application.UseCases\Application.UseCases.csproj", "{34C0FACD-F3D9-400C-8945-554DD6B0819A}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Infrastructure", "src\Infrastructure\Infrastructure.csproj", "{117DA02F-5274-4565-ACC6-DA9B6E568B09}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Infrastructure.Implementation", "src\Infrastructure.Implementation\Infrastructure.Implementation.csproj", "{117DA02F-5274-4565-ACC6-DA9B6E568B09}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{6ED356A7-8B47-4613-AD01-C85CF28491BD}"
 EndProject
@@ -32,7 +32,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1 Domain", "1 Domain", "{07
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2 Infrastructure Interfaces", "2 Infrastructure Interfaces", "{1F948520-B61D-448F-BD9D-F8CEC775B38E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Infrastructure.Interfaces", "src\Infrastructure.Interfaces\Infrastructure.Interfaces.csproj", "{085227C8-517C-41E5-AC00-0413C0950AE5}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Infrastructure", "src\Infrastructure\Infrastructure.csproj", "{085227C8-517C-41E5-AC00-0413C0950AE5}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3 Application", "3 Application", "{CB65B5C5-FE88-4E6F-A70C-1A05E6514FB3}"
 EndProject
@@ -43,6 +43,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Application.Services", "src\Application.Services\Application.Services.csproj", "{5FF73DAE-4918-470F-A34F-B4EDDC220D15}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Application.Services.Implementation", "src\Application.Services.Implementation\Application.Services.Implementation.csproj", "{AC44FE29-0F8F-480F-9598-30325A22FC28}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4 Infrastructure Implementation", "4 Infrastructure Implementation", "{C26A2C25-8567-4D7A-8E2E-A324EF7A2444}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -99,7 +101,6 @@ Global
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
-		{117DA02F-5274-4565-ACC6-DA9B6E568B09} = {6ED356A7-8B47-4613-AD01-C85CF28491BD}
 		{DEFF4009-1FAB-4392-80B6-707E2DC5C00B} = {664D406C-2F83-48F0-BFC3-408D5CB53C65}
 		{DC37FD87-552C-4613-9F16-1537CA522898} = {664D406C-2F83-48F0-BFC3-408D5CB53C65}
 		{277029AF-D9E1-4B75-9F11-48FEA7345AD7} = {664D406C-2F83-48F0-BFC3-408D5CB53C65}
@@ -114,6 +115,8 @@ Global
 		{603D4495-DEE9-4FF9-BC52-E4C69D7EC6F3} = {3D8EC81C-B150-4D72-AEE9-B6DACDED64E6}
 		{5FF73DAE-4918-470F-A34F-B4EDDC220D15} = {CB65B5C5-FE88-4E6F-A70C-1A05E6514FB3}
 		{AC44FE29-0F8F-480F-9598-30325A22FC28} = {CB65B5C5-FE88-4E6F-A70C-1A05E6514FB3}
+		{C26A2C25-8567-4D7A-8E2E-A324EF7A2444} = {6ED356A7-8B47-4613-AD01-C85CF28491BD}
+		{117DA02F-5274-4565-ACC6-DA9B6E568B09} = {C26A2C25-8567-4D7A-8E2E-A324EF7A2444}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {3CB609D9-5D54-4C11-A371-DAAC8B74E430}
