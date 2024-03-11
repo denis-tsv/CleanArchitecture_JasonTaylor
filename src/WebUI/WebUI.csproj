@@ -12,7 +12,8 @@
     </PropertyGroup>
 
     <ItemGroup>
-        <ProjectReference Include="..\Application\Application.csproj" />
+        <ProjectReference Include="..\Application.Services.Implementation\Application.Services.Implementation.csproj" />
+        <ProjectReference Include="..\Application.UseCases\Application.UseCases.csproj" />
         <ProjectReference Include="..\Infrastructure\Infrastructure.csproj" />
     </ItemGroup>
 
